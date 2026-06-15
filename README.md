@@ -1,6 +1,6 @@
-# TCSE: Temporal Causal Sequential Embedding
+# TCSE: Time-aware Causal Disentanglement with Semantic Knowledge Enhancement for Personalized Mobile Application Recommendation
+*TCSE** is a novel recommendation framework designed to effectively address time-varying popularity bias and semantic sparsity, particularly in mobile app ecosystems. By synergizing causal disentanglement with LLM-empowered semantic reasoning, TCSE accurately isolates genuine user interest from herd behavior driven by social conformity.
 
-TCSE is a lightweight research prototype that couples **temporal segmentation**, **causal debiasing**, and **text-aware enrichment** to improve sequential recommendation. The public release focuses on the key components needed to reproduce our ablation studies without exposing internal tooling.
 
 ## Repository Layout
 
