@@ -5,7 +5,7 @@ TCSE is a lightweight research prototype that couples **temporal segmentation**,
 ## Repository Layout
 
 ```
-upload_github/
+TCSE/
 ├── README.md
 ├── requirements.txt
 ├── configs/
@@ -26,7 +26,6 @@ You can extend this tree with additional configs or notebooks as needed before p
 
 1. **Install dependencies**
    ```bash
-   python -m venv .venv && source .venv/bin/activate
    pip install -r requirements.txt
    ```
 2. **Prepare data**
