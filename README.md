@@ -2,13 +2,6 @@
 
 TCSE is a lightweight research prototype that couples **temporal segmentation**, **causal debiasing**, and **text-aware enrichment** to improve sequential recommendation. The public release focuses on the key components needed to reproduce our ablation studies without exposing internal tooling.
 
-## Features
-
-- **Two-channel user/item encoders** that disentangle interest-driven interactions from popularity-driven exposure bias.
-- **Time-cohort weighting** that re-scales pairwise scores with a configurable schedule (`linear` or `exp`) based on discretized time buckets.
-- **Optional text fusion** that injects frozen language-model embeddings through small projection heads.
-- **Simple pairwise sampler** that preserves chronological order, supports time-based splits, and produces training tuples with both positive and negative time periods.
-
 ## Repository Layout
 
 ```
